@@ -9,6 +9,9 @@ URL-REGEX,https://app.bilibili.com/x/v2/(splash|search/(defaultword|square))
 URL-REGEX,https://api.bilibili.com/x/v2/dm/ad
 AND,((USER-AGENT,bili*), (NOT,((DOMAIN-SUFFIX,bilibili.com))),(NOT,((DOMAIN-SUFFIX,hdslb.com))))
 
+//JD START
+URL-REGEX,^https?:\/\/api\.m\.jd.com\/client\.action\?functionId=start
+
 //Thirdparty
 DOMAIN-KEYWORD,inmobi
 DOMAIN,app.adjust.com
